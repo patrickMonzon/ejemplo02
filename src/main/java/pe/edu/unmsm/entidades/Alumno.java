@@ -6,6 +6,7 @@ public class Alumno {
 	private String aluvcpaterno;
 	private String aluvcmaterno;
 	private String aluvcnombre;
+	private Integer puerto;
 	
 	public Integer getAluicodigo() {
 		return aluicodigo;
@@ -37,6 +38,11 @@ public class Alumno {
 	public void setAluvcnombre(String aluvcnombre) {
 		this.aluvcnombre = aluvcnombre;
 	}
-	
+	public Integer getPuerto() {
+		return puerto;
+	}
+	public void setPuerto(Integer puerto) {
+		this.puerto = puerto;
+	}
 	
 }
